@@ -14,12 +14,12 @@ Check application elements
     Page should contain    The greatest factorial calculator!
     Page should contain element    Input_box
     Page should contain element    Calculate
-[Teardown]    Close all browsers
+    [Teardown]    Close all browsers
 
 Check Allowed Input values
     Open Broswer    URL    ${Browser}
     Allowed values    @{Input_values}
-[Teardown]    Close all browsers
+    [Teardown]    Close all browsers
 
 *** Keywords ***   
 Allowed values

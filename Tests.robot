@@ -25,8 +25,9 @@ Check Allowed Input values
 Allowed values
     [Arguments]    @{Input_values} 
     FOR ${input} IN @{Input_values}
-        Input text    Input_box    Input
+        Input text    Input_box    ${input}
         Click element    Calculate
         Page should contain    The factorial of ${input} is:
+    END
         
     

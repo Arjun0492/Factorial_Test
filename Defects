@@ -1,0 +1,20 @@
+#Defect #1
+#Summary: No error is displayed on entering a negative value
+
+#Steps to Reproduce:
+  1. Navigate to Factorial application
+  2. Enter a negative value, for example, -8 in the input box
+  3. Press Calculate button
+  
+  ER: Error message should be displayed regarding invalid input
+  AR: No error message is displayed
+  
+  Defect#2
+  #Summary: Pressing Enter key on computer doesn't display the result 
+  
+  #Steps to Reproduce:
+    1. Navigate to Factorial application
+    2. Enter an integer in the input box and press enter key
+    
+    ER: Result is not displayed
+    AR: Result should be displayed as on mobile browser it works
